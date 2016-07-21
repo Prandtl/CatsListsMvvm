@@ -13,7 +13,7 @@ namespace CatsLists.Core.ViewModels
 			for (int i = 0; i < 100; i++)
 			{
 				var cat = service.GenerateKitten(i.ToString());
-				_kittens.Add(cat);
+				catList.Add(cat);
 			}
 			_kittens = catList;
 		}
